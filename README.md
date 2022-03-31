@@ -1,3 +1,5 @@
 # Ahorcado
 Juego de ahoracado
-es este programa se puede apreciar el uso de varios tipos de datos (lista, diccionarios, entereos, etc...) y sus funciones propias
+en este programa se puede apreciar el uso de varios tipos de datos (lista, diccionarios, enteros, etc...) y sus funciones propias
+modulo random para agregar aleatoridad al juego y que sea valido
+y una opción de multijugador.
