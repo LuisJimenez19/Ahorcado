@@ -1,7 +1,7 @@
 ####-------Ahorcado 2.0-------------###
 import random
 IMÁGENES_AHORCADO = ['''
- 
+
  +---+
  | |
  |
@@ -81,7 +81,7 @@ palabras = {
 "formas": "triangulo cuadrado rectangulo circulo cilindro hexagono".split(),
 "paises": "argentina colombia venezuela ecuador españa inglaterra bolivia peru canada uruguay paraguay chile mexico guatemala panama".split(),}
 
-###----funcion que extrae una palabra al azar del diccionar-----###
+###----funcion que extrae una palabra al azar del diccionario-----###
 def obtenerPalabraAlAzar(listaDePalabras):
     clave_de_diccionario = random.choice(list(listaDePalabras.keys()))             ###-----convierte las claves del diccionario en una lista y las almacena en la variable
     indice = random.randint(0, len(listaDePalabras[clave_de_diccionario])-1)       ###-----almacena un numero aleatorio el cual servira como indice
